@@ -1,0 +1,30 @@
+[
+  {
+    "id": "todo_1781461863130",
+    "content": "Revert knex 2.4.0 → 0.19.5 in ghost/versions/3.0.2/package.json (downgrade scope — restore compatible stack; 0.19.5 is already patched against CVE-2019-10757 critical advisory)",
+    "status": "done",
+    "priority": "critical",
+    "created_at": "2026-06-14T18:31:03.130581344+00:00"
+  },
+  {
+    "id": "todo_1781461864354",
+    "content": "Revert ghost/versions/3.0.2/yarn.lock to pre-bump state (restore from 884be32d~1)",
+    "status": "done",
+    "priority": "critical",
+    "created_at": "2026-06-14T18:31:04.354246028+00:00"
+  },
+  {
+    "id": "todo_1781461864743",
+    "content": "Remove .codetether-agent/telemetry/install_id (provenance drift from HEAD commit caea80a3) and add .codetether-agent/ to .gitignore",
+    "status": "done",
+    "priority": "high",
+    "created_at": "2026-06-14T18:31:04.743305244+00:00"
+  },
+  {
+    "id": "todo_1781461866024",
+    "content": "Validate (git diff --check, confirm package.json/yarn.lock consistent), commit, and push to PR branch",
+    "status": "done",
+    "priority": "high",
+    "created_at": "2026-06-14T18:31:06.024585812+00:00"
+  }
+]
